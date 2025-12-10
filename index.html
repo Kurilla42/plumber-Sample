@@ -2,440 +2,432 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Expert Plumbing Services You Can Trust</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProFlow Plumbing</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключение шрифта Inter для схожести с макетом -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="page">
-    <header class="site-header">
-      <div class="container header-top">
-        <div class="logo-area">
-          <!-- LOGO PLACEHOLDER -->
-          <div class="logo-mark"></div>
-          <div class="logo-text">
-            <span class="logo-title">ProFlow Plumbing</span>
-            <span class="logo-subtitle">Expert Residential Plumbing</span>
-          </div>
-        </div>
-        <nav class="main-nav">
-          <ul>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#offers">Special Offers</a></li>
-            <li><a href="#team">Our Team</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="header-actions">
-          <div class="header-rating">
-            <span class="rating-score">4.9</span>
-            <div class="rating-stars">
-              <span class="rating-star"></span>
-              <span class="rating-star"></span>
-              <span class="rating-star"></span>
-              <span class="rating-star"></span>
-              <span class="rating-star"></span>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo">
+                <div class="icon-placeholder header-icon">🔧</div>
             </div>
-            <span class="rating-text">250+ reviews</span>
-          </div>
-          <div class="header-phone">
-            <span class="phone-label">24/7 Line</span>
-            <a href="tel:15551234567" class="phone-number">+1 (555) 123‑4567</a>
-          </div>
-          <a href="#contact" class="btn btn-outline btn-sm header-cta">Get Quote</a>
+            
+            <nav class="header__nav">
+                <a href="#" class="nav-link">Services</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Testimonials</a>
+                <a href="#" class="nav-link">Special Offers</a>
+                <a href="#" class="nav-link">Our Team</a>
+                <a href="#" class="nav-link">FAQ</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="header__actions">
+                <a href="tel:5551234567" class="btn btn--outline btn--icon">
+                    📞 (555) 123-4567
+                </a>
+                <a href="#" class="btn btn--primary">Get Quote</a>
+            </div>
+            
+            <!-- Mobile Menu Toggle (Visual only) -->
+            <div class="mobile-menu-icon">☰</div>
         </div>
-        <button class="burger" aria-label="Toggle navigation">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
     </header>
 
     <main>
-      <!-- HERO -->
-      <section class="hero">
-        <div class="hero-bg"></div>
-        <div class="container hero-inner">
-          <div class="hero-content">
-            <div class="hero-badge">
-              <span class="hero-badge-icon"></span>
-              <span class="hero-badge-text">Licensed &amp; Insured Local Plumbers</span>
-            </div>
-            <h1 class="hero-title">
-              Expert Plumbing<br>
-              Services<br>
-              <span class="hero-title-accent">You Can Trust</span>
-            </h1>
-            <p class="hero-subtitle">
-              Fast, reliable plumbing repairs, installations, and maintenance for homeowners in your area. No surprise fees, just honest work.
-            </p>
-            <div class="hero-actions">
-              <a href="tel:15551234567" class="btn btn-primary hero-call">
-                Call Now: (555) 123‑4567
-              </a>
-              <a href="#contact" class="btn btn-secondary hero-book">
-                Schedule Service
-              </a>
-            </div>
-            <div class="hero-stats">
-              <article class="stat-card">
-                <div class="stat-icon"></div>
-                <div class="stat-body">
-                  <div class="stat-value">10+ yrs</div>
-                  <div class="stat-label">Of local experience</div>
-                </div>
-              </article>
-              <article class="stat-card">
-                <div class="stat-icon"></div>
-                <div class="stat-body">
-                  <div class="stat-value">1000+</div>
-                  <div class="stat-label">Jobs completed</div>
-                </div>
-              </article>
-              <article class="stat-card">
-                <div class="stat-icon"></div>
-                <div class="stat-body">
-                  <div class="stat-value">24/7</div>
-                  <div class="stat-label">Emergency response</div>
-                </div>
-              </article>
-              <article class="stat-card">
-                <div class="stat-icon"></div>
-                <div class="stat-body">
-                  <div class="stat-value">100%</div>
-                  <div class="stat-label">Satisfaction guaranteed</div>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="hero-visual">
-            <div class="hero-plumber-wrapper">
-              <!-- HERO MAIN IMAGE -->
-              <div class="hero-plumber-photo">
-                <!-- desktop hero image placeholder -->
-              </div>
-              <div class="hero-plumber-circle"></div>
-            </div>
-          </div>
-        </div>
-      </section>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Expert Plumbing Services<br>
+                        You Can <span class="text-highlight">Afford</span>
+                    </h1>
+                    
+                    <div class="hero__buttons">
+                        <button class="btn btn--primary btn--lg">📞 Call Now: (555) 123-4567</button>
+                        <button class="btn btn--primary btn--lg">Schedule Service</button>
+                    </div>
 
-      <!-- SERVICE CARDS -->
-      <section id="services" class="services">
-        <div class="container">
-          <div class="services-grid">
-            <article class="service-card">
-              <div class="service-icon"></div>
-              <h3 class="service-title">Emergency Repairs</h3>
-              <p class="service-text">
-                Burst pipes, leaks, clogs, and urgent issues fixed fast any time of day or night.
-              </p>
-              <ul class="service-list">
-                <li>24/7 dispatch</li>
-                <li>Upfront pricing</li>
-                <li>Licensed technicians</li>
-              </ul>
-            </article>
-            <article class="service-card">
-              <div class="service-icon"></div>
-              <h3 class="service-title">Installation Services</h3>
-              <p class="service-text">
-                Professional installation of water heaters, fixtures, faucets, and filtration systems.
-              </p>
-              <ul class="service-list">
-                <li>Water heaters</li>
-                <li>Showers &amp; tubs</li>
-                <li>Kitchen plumbing</li>
-              </ul>
-            </article>
-            <article class="service-card">
-              <div class="service-icon"></div>
-              <h3 class="service-title">Maintenance</h3>
-              <p class="service-text">
-                Preventive inspections and tune‑ups that keep your plumbing running smoothly.
-              </p>
-              <ul class="service-list">
-                <li>Annual check‑ups</li>
-                <li>Leak detection</li>
-                <li>Water pressure checks</li>
-              </ul>
-            </article>
-            <article class="service-card">
-              <div class="service-icon"></div>
-              <h3 class="service-title">Drain Cleaning</h3>
-              <p class="service-text">
-                From slow drains to sewer line clogs, we clear it all with modern equipment.
-              </p>
-              <ul class="service-list">
-                <li>Camera inspections</li>
-                <li>Hydro jetting</li>
-                <li>Root removal</li>
-              </ul>
-            </article>
-          </div>
-          <div class="services-cta-row">
-            <a href="#contact" class="btn btn-primary btn-sm">Get Free Price Quote</a>
-          </div>
-        </div>
-      </section>
-
-      <!-- WHY CHOOSE -->
-      <section id="about" class="why">
-        <div class="container why-inner">
-          <div class="why-media">
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="why-photo">
-              <div class="why-photo-badge">
-                <span class="why-photo-badge-number">10+</span>
-                <span class="why-photo-badge-text">Years of Experience</span>
-              </div>
+                    <div class="hero__trust-badges">
+                        <div class="badge">
+                            <div class="badge__icon">🛡️</div>
+                            <div class="badge__text"><strong>10+ Years</strong><br>Experience</div>
+                        </div>
+                        <div class="badge">
+                            <div class="badge__icon">😊</div>
+                            <div class="badge__text"><strong>1000+</strong><br>Happy Customers</div>
+                        </div>
+                        <div class="badge">
+                            <div class="badge__icon">⭐</div>
+                            <div class="badge__text"><strong>4.9 ★★★★★</strong><br>Google Rating</div>
+                        </div>
+                        <div class="badge">
+                            <div class="badge__icon">✓</div>
+                            <div class="badge__text"><strong>Licensed</strong><br>Professionals</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__image-wrapper">
+                    <!-- Placeholder for the plumber image -->
+                    <div class="hero__image-placeholder">
+                        <span class="placeholder-text">Plumber Image</span>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="why-content">
-            <h2 class="section-title">
-              Why Hundreds of Homeowners<br>
-              Choose ProFlow Plumbing
-            </h2>
-            <p class="why-lead">
-              From small leaks to full system installations, homeowners trust our team for friendly service, transparent pricing, and quality workmanship that lasts.
-            </p>
-            <p class="why-text">
-              We arrive on time, respect your home, and walk you through every step of the job so there are no surprises. Our fully stocked trucks and experienced plumbers mean most issues are fixed in a single visit.
-            </p>
-            <div class="why-grid">
-              <article class="why-item">
-                <h3 class="why-item-title">Upfront &amp; honest pricing</h3>
-                <p class="why-item-text">
-                  Clear written estimates before any work begins—no hidden fees or last‑minute add‑ons.
-                </p>
-              </article>
-              <article class="why-item">
-                <h3 class="why-item-title">Licensed &amp; insured pros</h3>
-                <p class="why-item-text">
-                  All plumbers are fully licensed, background‑checked, and trained on the latest code requirements.
-                </p>
-              </article>
-              <article class="why-item">
-                <h3 class="why-item-title">Quality parts &amp; warranties</h3>
-                <p class="why-item-text">
-                  We use trusted brands and stand behind our work with industry‑leading guarantees.
-                </p>
-              </article>
-              <article class="why-item">
-                <h3 class="why-item-title">Clean, respectful service</h3>
-                <p class="why-item-text">
-                  Shoe covers, drop cloths, and full clean‑up after every job so your home looks spotless.
-                </p>
-              </article>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="services section-padding">
+            <div class="container">
+                <div class="services__grid">
+                    <!-- Service 1 -->
+                    <div class="service-card">
+                        <div class="service-card__icon">🔧</div>
+                        <h3 class="service-card__title">Emergency Repairs</h3>
+                        <p class="service-card__desc">24/7 emergency plumbing services for urgent issues. Fast response time.</p>
+                        <ul class="service-card__list">
+                            <li>✓ Burst Pipes</li>
+                            <li>✓ Gas Leaks</li>
+                            <li>✓ Blocked Drains</li>
+                        </ul>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="service-card">
+                        <div class="service-card__icon">💧</div>
+                        <h3 class="service-card__title">Installation Services</h3>
+                        <p class="service-card__desc">Professional installation of fixtures, appliances, and complete plumbing systems.</p>
+                        <ul class="service-card__list">
+                            <li>✓ Water Heaters</li>
+                            <li>✓ Fixtures</li>
+                            <li>✓ Appliances</li>
+                        </ul>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="service-card">
+                        <div class="service-card__icon">🛡️</div>
+                        <h3 class="service-card__title">Maintenance</h3>
+                        <p class="service-card__desc">Regular maintenance and thorough inspections to prevent costly future repairs.</p>
+                        <ul class="service-card__list">
+                            <li>✓ Annual Checks</li>
+                            <li>✓ Preventive Care</li>
+                            <li>✓ System Audits</li>
+                        </ul>
+                    </div>
+                    <!-- Service 4 -->
+                    <div class="service-card">
+                        <div class="service-card__icon">⚡</div>
+                        <h3 class="service-card__title">Drain Cleaning</h3>
+                        <p class="service-card__desc">Advanced drain cleaning services using the latest technology and techniques.</p>
+                        <ul class="service-card__list">
+                            <li>✓ Hydro Jetting</li>
+                            <li>✓ Camera Inspection</li>
+                            <li>✓ Root Removal</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="services__cta">
+                    <button class="btn btn--primary btn--lg">Get Exact Price for Free</button>
+                </div>
             </div>
-            <div class="why-footer">
-              <div class="why-guarantee">
-                <span class="why-check"></span>
-                <div>
-                  <div class="why-guarantee-title">Satisfaction Guaranteed</div>
-                  <div class="why-guarantee-text">If you’re not happy, we’ll make it right at no extra cost.</div>
+        </section>
+
+        <!-- Comparison / Why Choose Us -->
+        <section class="comparison section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title text-center">Why Hundreds of Homeowners Choose ProFlow Plumbing</h2>
+                
+                <div class="comparison__content">
+                    <div class="comparison__image">
+                        <div class="image-placeholder-rect">
+                            <span class="overlay-badge">10+<br><small>Years of Excellence</small></span>
+                        </div>
+                    </div>
+                    <div class="comparison__text">
+                        <p class="mb-4">ProFlow Plumbing is more than a plumbing service — it's your partner in protecting your home. For over 10 years, we've helped 1,000+ families avoid costly damage and get their plumbing back to normal quickly and safely.</p>
+                        
+                        <div class="comparison-table">
+                            <div class="table-header">
+                                <div></div>
+                                <div class="col-us">US</div>
+                                <div class="col-them">Competitors</div>
+                            </div>
+                            <div class="table-row">
+                                <div class="row-label">Response Time</div>
+                                <div class="row-val-us">60 minutes</div>
+                                <div class="row-val-them">3-5 hours</div>
+                            </div>
+                            <div class="table-row">
+                                <div class="row-label">Licensed & Insured</div>
+                                <div class="row-val-us">Yes</div>
+                                <div class="row-val-them">Not Always</div>
+                            </div>
+                            <div class="table-row">
+                                <div class="row-label">Upfront Pricing</div>
+                                <div class="row-val-us">Always</div>
+                                <div class="row-val-them">Rarely</div>
+                            </div>
+                            <div class="table-row">
+                                <div class="row-label">Background-Checked</div>
+                                <div class="row-val-us">100%</div>
+                                <div class="row-val-them">Unknown</div>
+                            </div>
+                            <div class="table-row">
+                                <div class="row-label">Warranty on Work</div>
+                                <div class="row-val-us">Yes</div>
+                                <div class="row-val-them">Limited</div>
+                            </div>
+                        </div>
+                        <p class="text-sm mt-4 text-muted">ProFlow Plumbing has been serving families for over 10 years with a commitment to quality and transparency.</p>
+                    </div>
                 </div>
-              </div>
-              <a href="#contact" class="btn btn-outline btn-sm">Schedule Inspection</a>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- EMERGENCY STRIP -->
-      <section class="emergency">
-        <div class="container emergency-inner">
-          <div class="emergency-info">
-            <div class="emergency-icon"></div>
-            <div>
-              <h3 class="emergency-title">Plumbing Emergency?</h3>
-              <p class="emergency-text">
-                We’re available 24/7 for urgent leaks, bursts, and backups. Average response time under 60 minutes.
-              </p>
+        <!-- Emergency Banner -->
+        <section class="emergency-banner">
+            <div class="container emergency-banner__container">
+                <div class="emergency-icon-circle">📞</div>
+                <div class="emergency-text">
+                    <h3>Plumbing Emergency?</h3>
+                    <p>We're available 24/7 for urgent repairs. Fast response guaranteed!</p>
+                </div>
+                <button class="btn btn--primary">Call Emergency Line</button>
             </div>
-          </div>
-          <a href="tel:15551234567" class="btn btn-light">Call Emergency Line</a>
-        </div>
-      </section>
+        </section>
 
-      <!-- TESTIMONIALS -->
-      <section id="testimonials" class="testimonials">
-        <div class="container">
-          <h2 class="section-title center">What Our Customers Say</h2>
-          <div class="testimonials-grid">
-            <article class="testimonial-card">
-              <div class="testimonial-header">
-                <div class="avatar-placeholder"></div>
-                <div>
-                  <div class="testimonial-name">Sarah Johnson</div>
-                  <div class="testimonial-meta">Water Heater Replacement</div>
+        <!-- Testimonials -->
+        <section class="testimonials section-padding">
+            <div class="container">
+                <h2 class="section-title text-center">What Our Customers Say</h2>
+                <div class="testimonials__grid">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="avatar">SJ</div>
+                            <div>
+                                <h4>Sarah Johnson</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Incredible service! They fixed our burst pipe within an hour of calling. Professional, clean, and reasonably priced.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="avatar">RA</div>
+                            <div>
+                                <h4>Robert Anderson</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Best plumbers in town! Installed our new water heater efficiently and explained everything clearly. Highly recommend!</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="avatar">ER</div>
+                            <div>
+                                <h4>Emily Rodriguez</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Professional team that went above and beyond. Fixed multiple plumbing issues in our home and gave great advice.</p>
+                    </div>
                 </div>
-              </div>
-              <p class="testimonial-text">
-                “From start to finish, ProFlow was a pleasure to work with. Fast response, clear pricing, and they left everything spotless. Highly recommend!”
-              </p>
-            </article>
-            <article class="testimonial-card">
-              <div class="testimonial-header">
-                <div class="avatar-placeholder"></div>
-                <div>
-                  <div class="testimonial-name">Robert Anderson</div>
-                  <div class="testimonial-meta">Emergency Pipe Repair</div>
-                </div>
-              </div>
-              <p class="testimonial-text">
-                “They arrived within 45 minutes of my call and stopped a major leak in our basement. Professional, calm, and very knowledgeable.”
-              </p>
-            </article>
-            <article class="testimonial-card">
-              <div class="testimonial-header">
-                <div class="avatar-placeholder"></div>
-                <div>
-                  <div class="testimonial-name">Emily Rodriguez</div>
-                  <div class="testimonial-meta">Bathroom Remodel</div>
-                </div>
-              </div>
-              <p class="testimonial-text">
-                “Our new bathroom looks amazing. The team communicated clearly, worked around our schedule, and the quality is top‑notch.”
-              </p>
-            </article>
-          </div>
-          <div class="testimonial-dots">
-            <span class="dot dot-active"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-      </section>
+            </div>
+        </section>
 
-      <!-- SPECIAL OFFERS -->
-      <section id="offers" class="offers">
-        <div class="container">
-          <h2 class="section-title center">Special Offers</h2>
-          <div class="offers-grid">
-            <article class="offer-card">
-              <div class="offer-image-placeholder"></div>
-              <div class="offer-body">
-                <h3 class="offer-title">Faucet Installation</h3>
-                <p class="offer-text">Save on new kitchen or bathroom faucet installs with same‑day service available.</p>
-                <div class="offer-footer">
-                  <span class="offer-price">$24 off</span>
-                  <a href="#contact" class="btn btn-outline btn-xs">Claim Offer</a>
+        <!-- Special Offers -->
+        <section class="offers section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title text-center">Special Offers</h2>
+                <div class="offers__grid">
+                    <div class="offer-card offer-bg-1">
+                        <div class="offer-content">
+                            <span class="offer-tag">Special Offer</span>
+                            <h3>Faucet installation</h3>
+                            <div class="offer-price">$24 off</div>
+                            <button class="btn btn--primary btn--sm">CLAIM OFFER</button>
+                        </div>
+                    </div>
+                    <div class="offer-card offer-bg-2">
+                        <div class="offer-content">
+                            <span class="offer-tag">Special Offer</span>
+                            <h3>Water filter cleaning</h3>
+                            <div class="offer-price">50% off</div>
+                            <button class="btn btn--primary btn--sm">CLAIM OFFER</button>
+                        </div>
+                    </div>
+                    <div class="offer-card offer-bg-3">
+                        <div class="offer-content">
+                            <span class="offer-tag">Special Offer</span>
+                            <h3>Drain cleaning</h3>
+                            <div class="offer-price">$10 off</div>
+                            <button class="btn btn--primary btn--sm">CLAIM OFFER</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </article>
-            <article class="offer-card">
-              <div class="offer-image-placeholder"></div>
-              <div class="offer-body">
-                <h3 class="offer-title">Water Filter Cleaning</h3>
-                <p class="offer-text">Half‑price cleaning and cartridge replacement for whole‑home filtration systems.</p>
-                <div class="offer-footer">
-                  <span class="offer-price">50% off</span>
-                  <a href="#contact" class="btn btn-outline btn-xs">Claim Offer</a>
+            </div>
+        </section>
+
+        <!-- Team -->
+        <section class="team section-padding">
+            <div class="container">
+                <h2 class="section-title text-center">Meet Our Expert Team</h2>
+                <p class="text-center text-muted mb-5">Highly trained specialists dedicated to delivering exceptional service</p>
+                
+                <div class="team__grid">
+                    <!-- Team Member 1 -->
+                    <div class="team-card">
+                        <div class="team-img-col">
+                            <div class="team-img-placeholder"></div>
+                        </div>
+                        <div class="team-info-col">
+                            <h3>Emergency Repairs Specialist</h3>
+                            <p class="team-desc">With over 15 years of experience in rapid response emergency plumbing, our specialist has successfully resolved more than 3,000 urgent crises.</p>
+                            <div class="team-badges">
+                                <span>✓ Master Plumber License</span>
+                                <span>✓ Gas Line Specialist</span>
+                                <span>✓ Emergency Response</span>
+                                <span>✓ 15+ Years Exp</span>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Team Member 2 -->
+                     <div class="team-card">
+                        <div class="team-img-col">
+                            <div class="team-img-placeholder"></div>
+                        </div>
+                        <div class="team-info-col">
+                            <h3>Installation Services Expert</h3>
+                            <p class="team-desc">Specializing in water heater and fixture installations for 12+ years, this expert ensures every installation meets the highest standards.</p>
+                            <div class="team-badges">
+                                <span>✓ Licensed Plumber</span>
+                                <span>✓ Water Heater Expert</span>
+                                <span>✓ Fixture Installation</span>
+                                <span>✓ 12+ Years Exp</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team Member 3 -->
+                    <div class="team-card">
+                        <div class="team-img-col">
+                            <div class="team-img-placeholder"></div>
+                        </div>
+                        <div class="team-info-col">
+                            <h3>Maintenance & Inspection Pro</h3>
+                            <p class="team-desc">Our preventive maintenance professional brings 18+ years of expertise with a keen eye for potential issues.</p>
+                            <div class="team-badges">
+                                <span>✓ Inspection Specialist</span>
+                                <span>✓ Preventive Maint.</span>
+                                <span>✓ Building Code Expert</span>
+                                <span>✓ 18+ Years Exp</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team Member 4 -->
+                    <div class="team-card">
+                        <div class="team-img-col">
+                            <div class="team-img-placeholder"></div>
+                        </div>
+                        <div class="team-info-col">
+                            <h3>Drain Cleaning Technician</h3>
+                            <p class="team-desc">With 14+ years mastering advanced drain cleaning technology, this technician utilizes cutting-edge hydro jetting.</p>
+                            <div class="team-badges">
+                                <span>✓ Hydro Jetting Cert</span>
+                                <span>✓ Video Inspection</span>
+                                <span>✓ Drain Specialist</span>
+                                <span>✓ 14+ Years Exp</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </article>
-            <article class="offer-card">
-              <div class="offer-image-placeholder"></div>
-              <div class="offer-body">
-                <h3 class="offer-title">Drain Cleaning</h3>
-                <p class="offer-text">Get stubborn clogs cleared quickly with professional tools and no harsh chemicals.</p>
-                <div class="offer-footer">
-                  <span class="offer-price">$10 off</span>
-                  <a href="#contact" class="btn btn-outline btn-xs">Claim Offer</a>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title text-center">Frequently Asked Questions</h2>
+                <div class="faq__list">
+                    <details class="faq-item" open>
+                        <summary class="faq-question">How much does plumbing service cost?</summary>
+                        <div class="faq-answer">
+                            <p>Our pricing is transparent and upfront — no hidden fees. Here's our structure:</p>
+                            <ul>
+                                <li>Service Call: $79 (waived with completed repair)</li>
+                                <li>Emergency Repairs: Starting at $150-$500</li>
+                                <li>Water Heater Installation: $800-$2,500</li>
+                            </ul>
+                            <p class="text-xs text-muted mt-2">Every job begins with a free diagnostic and detailed quote.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">How quickly can you arrive?</summary>
+                        <div class="faq-answer"><p>We typically arrive within 60 minutes for emergency calls.</p></div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Do you offer a warranty or guarantee?</summary>
+                        <div class="faq-answer"><p>Yes, we offer a full warranty on all parts and labor.</p></div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">What is your service process?</summary>
+                        <div class="faq-answer"><p>Assessment, Quote, Repair, Final Check.</p></div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Are your technicians licensed and certified?</summary>
+                        <div class="faq-answer"><p>Yes, all our technicians are fully licensed, bonded, and insured.</p></div>
+                    </details>
                 </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
+            </div>
+        </section>
 
-      <!-- TEAM -->
-      <section id="team" class="team">
-        <div class="container">
-          <h2 class="section-title center">Meet Our Expert Team</h2>
-          <p class="section-subtitle center">
-            Highly trained specialists dedicated to delivering exceptional service on every visit.
-          </p>
-          <div class="team-grid">
-            <article class="team-card">
-              <div class="team-photo-placeholder"></div>
-              <div class="team-body">
-                <div class="team-role">Emergency Repair Specialist</div>
-                <div class="team-name">Jason Miller</div>
-                <p class="team-text">
-                  Focused on urgent leaks, bursts, and sewer backups with rapid on‑site diagnostics.
-                </p>
-                <ul class="team-list">
-                  <li>24/7 availability</li>
-                  <li>Same‑day repairs</li>
-                  <li>Certified in leak detection</li>
-                </ul>
-              </div>
-            </article>
-            <article class="team-card">
-              <div class="team-photo-placeholder"></div>
-              <div class="team-body">
-                <div class="team-role">Installation Services Expert</div>
-                <div class="team-name">Michael Brown</div>
-                <p class="team-text">
-                  Specializes in new construction and remodel installations with an eye for detail.
-                </p>
-                <ul class="team-list">
-                  <li>Bathroom remodels</li>
-                  <li>Kitchen upgrades</li>
-                  <li>Fixture replacement</li>
-                </ul>
-              </div>
-            </article>
-            <article class="team-card">
-              <div class="team-photo-placeholder"></div>
-              <div class="team-body">
-                <div class="team-role">Maintenance &amp; Inspection Pro</div>
-                <div class="team-name">Alex Carter</div>
-                <p class="team-text">
-                  Keeps systems running smoothly with thorough inspections and preventive maintenance.
-                </p>
-                <ul class="team-list">
-                  <li>Annual tune‑ups</li>
-                  <li>System optimization</li>
-                  <li>Water quality checks</li>
-                </ul>
-              </div>
-            </article>
-            <article class="team-card">
-              <div class="team-photo-placeholder"></div>
-              <div class="team-body">
-                <div class="team-role">Drain Cleaning Technician</div>
-                <div class="team-name">Laura Smith</div>
-                <p class="team-text">
-                  Expert in clearing drains and sewer lines with advanced camera and jetting tools.
-                </p>
-                <ul class="team-list">
-                  <li>Root intrusion removal</li>
-                  <li>Hydro jetting</li>
-                  <li>Video inspections</li>
-                </ul>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
+        <!-- Contact & Footer -->
+        <footer class="footer section-padding">
+            <div class="container footer__layout">
+                <div class="footer__form-col">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="mb-4 text-muted">Leave your contact details and our team will reach out today to explain your options.</p>
+                    <form class="contact-form">
+                        <label>Name
+                            <input type="text" placeholder="">
+                        </label>
+                        <label>Phone
+                            <input type="tel" placeholder="">
+                        </label>
+                        <label>Email <small>(not required)</small>
+                            <input type="email" placeholder="">
+                        </label>
+                        <label>Message
+                            <textarea rows="4"></textarea>
+                        </label>
+                        <button type="submit" class="btn btn--primary btn--block">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="footer__info-col">
+                    <h2 class="section-title">ProFlow Plumbing</h2>
+                    <ul class="contact-info">
+                        <li>📞 (555) 123-4567</li>
+                        <li>✉️ info@proflow.com</li>
+                        <li>📍 123 Main Street, Your City, ST 12345</li>
+                        <li>🕒 24/7 Emergency Service</li>
+                    </ul>
+                    
+                    <h3 class="location-title">Location</h3>
+                    <div class="map-placeholder">
+                        Map View Placeholder
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-      <!-- FAQ -->
-      <section id="faq" class="faq">
-        <div class="container">
-          <h2 class="section-title center">Frequently Asked Questions</h2>
-          <div class="faq-list">
-            <article class="faq-item faq-item-open">
-              <button class="faq-question">
-                <span>How much does plumbing service cost?</span>
-                <span class="faq-toggle">−</span>
-              </button>
-              <div class="faq-answer">
-                <p>
-                  Pricing depends on the type of service, parts required, and time of day
-
+    </main>
+</body>
+</html>
